@@ -1,66 +1,21 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+1)In this project I wanted to demonstrate the solution of retriving data from a packetof string and store them at the desired place of database. 
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+2)To run this project you just have to do the git clone inside your xampp/htdocs repository. command,"git clone https://github.com/SahariarIslm/Aq-task-recruitment.git"
 
-## About Laravel
+3)Next, go to the project directory, open the command prompt and type "php artisan migrate"
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+4)Then you mught want to see the data tables first! 
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+5)I've created two different datatables with pagination for 2 tasks 
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+6)Task-1.Aq-task: Packet Data Show: "http://localhost/Aq-task-recruitment/public/process-packet-data-show"
 
-## Learning Laravel
+7)Task-2.Aq-task: Multi-phase Packet Data Show: "http://localhost/Aq-task-recruitment/public/process-multiphase-packet-data-show"
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+8)But to insert packets in this datatables you need to install postman 
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+9)Task-1.Aq-task: Packet Data insert: "http://localhost/Aq-task-recruitment/public/api/process-packet-data/1122|20230313902025|1|1686646969.531|30|101-152-1.13|102-152-90.9|103-152-94.8|104-152-93.6|105-152-99.9|106-152-95.9|107-152-99.9|108-152-89.1|109-152-88.4|110-152-93.9|111-152-90.5|112-152-97.4|113-152-98.1|114-152-97.6|115-152-99.9|116-152-99.9|117-152-0|118-152-99.9|119-152-0|120-152-0|121-152-97.7|122-152-99.9|123-152-99.8|124-152-0|125-152-94.2|126-152-95.7|127-152-97.6|128-152-0|129-152-99.9|130-152-0"
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+10)Task-2.1.Aq-task: Three-phase Packet Data insert: "http://localhost/Aq-task-recruitment/public/api/process-multiphase-packet-data/1122|20230313902025|1|1677999172|1|100|1|3|12|V1_99-V2_98-V3_97|A1_99-A2_98-A3_97|W1_99-W2_98-W3_97|E1_99-E2_98-E3_97"
 
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+11)Task-2.2.Aq-task: Single-phase Packet Data insert: "http://localhost/Aq-task-recruitment/public/api/process-multiphase-packet-data/1122|20230313902025|1|1677999172|1|100|1|1|12|V1_97|A1_91|W1_9.7|E1_25.6"
