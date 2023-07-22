@@ -19,3 +19,6 @@
 10)Task-2.1.Aq-task: Three-phase Packet Data insert: "http://localhost/Aq-task-recruitment/public/api/process-multiphase-packet-data/1122|20230313902025|1|1677999172|1|100|1|3|12|V1_99-V2_98-V3_97|A1_99-A2_98-A3_97|W1_99-W2_98-W3_97|E1_99-E2_98-E3_97"
 
 11)Task-2.2.Aq-task: Single-phase Packet Data insert: "http://localhost/Aq-task-recruitment/public/api/process-multiphase-packet-data/1122|20230313902025|1|1677999172|1|100|1|1|12|V1_97|A1_91|W1_9.7|E1_25.6"
+
+
+Note: I've also added the databse inside DB folder of the root directory
